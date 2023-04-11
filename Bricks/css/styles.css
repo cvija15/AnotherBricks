@@ -1,0 +1,91 @@
+*{
+    margin:0;
+    padding: 0;
+}
+body, html{
+    height: 100%;
+    width: 100%;
+}
+body{
+    background:rgb(154, 66, 242);
+}
+
+
+#game-canvas{
+    border: 1px solid black;
+    background: gray;
+    margin: auto;
+    height: 95vh;
+}   
+
+#start-menu{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    height: 100vh;
+}
+#game-title{
+    display: block;
+}
+#start-buttons-list{
+    width: 100px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    list-style-type: none;
+}
+.start-button{
+    width: 100px;
+}
+.modal-header{
+    flex-direction: column;
+    align-items: center !important;
+}
+#options-body{
+    display: flex;
+    flex-direction: row;
+}
+#mouse-container{
+    margin:25px;
+    width: 50%;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+#keyboard-container{
+    margin:25px;
+    width: 50%;
+    height: 200px;
+    border-radius: 15px;
+    box-shadow: rgba(0, 0, 0, 0.16) 0px 10px 36px 0px, rgba(0, 0, 0, 0.06) 0px 0px 0px 1px;
+}
+#mouse-icon{
+    width: 100px;
+    height: 100px;
+}
+#keyboard-icon{
+    width: 100px;
+    height: 100px;
+}
+#instructions{
+    display: block;
+    text-align: center;
+    margin-top: 20px;
+}
+.options-child{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+.options-child:hover{
+    background-color: rgb(252, 209, 99);
+}
+.options-child:active{
+    background-color: rgb(123, 117, 117);
+}
+#options-header{
+    flex-direction: row;
+}
